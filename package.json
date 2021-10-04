@@ -1,0 +1,14 @@
+{
+  "name": "mc-newsletter",
+  "scripts": {
+    "build": "mjml index.mjml -o index.html"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mjml": "4.1.1",
+    "mjml-cli": "4.6.1",
+    "mjml-mailchimp": "0.0.5"
+  }
+}
